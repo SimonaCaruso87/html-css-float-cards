@@ -4,7 +4,7 @@
 
 */      
 
-*{
+* {
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -63,10 +63,43 @@ body{
 
 .float-container{
     max-width: 1000px;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 
 .clearfix::after{
-    content:"";
+    content: "";
     display: table;
-    clear:both;
+    clear: both;
 }
+
+.image-container{
+    height: 70px;
+    float: left;
+}
+
+.columns > *{
+    float: left;
+}
+
+.name-worker , .name-work{
+    text-align: left; 
+    color: white;
+}
+
+
+.email{
+    color: #3FB3DE;
+    font-size: medium;
+    text-align: left;
+}
+
+.single-column{
+    background-color: #0F0E17;
+    background-size: 20px 40px;
+    width: calc((100% / 3) - 70px);
+    margin: 0;
+
+}
+
+
+
