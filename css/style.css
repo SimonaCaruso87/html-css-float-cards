@@ -12,11 +12,44 @@
 
 /*
 
-      DEBUG
+      GENERAL
+
+*/
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+
+}
+
+.container{
+        max-width: 1000px;
+        margin:0 auto;
+        padding: 30px;
+
+}
+
+
+/*
+
+     DEBUG
 
 */
  .debug .float-container{
     border: 2px dashed red;
  }
 
+ /*
 
+      HEADER
+
+*/    
+
+.pink-color{
+    color: #E62B6D;
+}
+
+.text{
+    font-size: 15px;
+    padding: 50px;
+}
