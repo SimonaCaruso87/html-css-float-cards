@@ -1,0 +1,22 @@
+/*
+
+       REBUS
+
+*/      
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/*
+
+      DEBUG
+
+*/
+ .debug .float-container{
+    border: 2px dashed red;
+ }
+
+
