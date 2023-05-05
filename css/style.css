@@ -54,3 +54,19 @@ body{
     font-size: 13px;
     padding: 50px;
 }
+
+/*
+
+       MAIN
+
+*/
+
+.float-container{
+    max-width: 1000px;
+    margin: 0 auto;}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear:both;
+}
