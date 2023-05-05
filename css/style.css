@@ -18,15 +18,12 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-    text-align: center;
-
 }
 
 .container{
         max-width: 1000px;
         margin:0 auto;
         padding: 30px;
-
 }
 
 
@@ -48,11 +45,13 @@ body{
 .pink-color{
     color: #E62B6D;
     font-size: 25px;
+    text-align: center;
 }
 
 .text{
     font-size: 13px;
-    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*
@@ -64,6 +63,8 @@ body{
 .float-container{
     max-width: 1000px;
     margin: 0 auto;
+    height:92px ;
+    width: 883px;
 }
 
 .clearfix::after{
@@ -89,15 +90,16 @@ body{
 
 .email{
     color: #3FB3DE;
-    font-size: medium;
+    font-size: 13px;
     text-align: left;
 }
 
 .single-column{
     background-color: #0F0E17;
-    background-size: 20px 40px;
+    background-size: 70px 70px;
     width: calc((100% / 3) - 70px);
     margin: 0;
+    height: 70px;
 
 }
 
