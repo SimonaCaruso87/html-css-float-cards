@@ -23,8 +23,7 @@ body{
 .container{
         max-width: 1000px;
         margin:0 auto;
-        padding: 30px;
-}
+    }
 
 
 /*
@@ -32,9 +31,9 @@ body{
      DEBUG
 
 */
- .debug .float-container{
-    border: 2px dashed red;
- }
+ /* .debug .float-container{ */
+    /* border: 2px dashed red; */
+ /* } */
 
  /*
 
@@ -50,9 +49,9 @@ body{
 
 .text{
     text-align: center;
-    font-size: 13px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 /*
@@ -64,7 +63,6 @@ body{
 .float-container{
     max-width: 1000px;
     margin: 0 auto;
-    width: 883px;
 }
 
 .clearfix::after{
