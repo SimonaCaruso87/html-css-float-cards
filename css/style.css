@@ -49,6 +49,7 @@ body{
 }
 
 .text{
+    text-align: center;
     font-size: 13px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -63,7 +64,6 @@ body{
 .float-container{
     max-width: 1000px;
     margin: 0 auto;
-    height:92px ;
     width: 883px;
 }
 
@@ -73,20 +73,23 @@ body{
     clear: both;
 }
 
-.image-container{
-    height: 70px;
-    float: left;
-}
 
 .columns > *{
     float: left;
 }
 
+.image-container{
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
 .name-worker , .name-work{
     text-align: left; 
     color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
 }
-
 
 .email{
     color: #3FB3DE;
@@ -96,9 +99,8 @@ body{
 
 .single-column{
     background-color: #0F0E17;
-    background-size: 70px 70px;
-    width: calc((100% / 3) - 70px);
-    margin: 0;
+    width: calc((100% / 3) - 50px);
+    margin: 20px;
     height: 70px;
 
 }
